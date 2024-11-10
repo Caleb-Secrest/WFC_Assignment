@@ -352,14 +352,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13cc905ea973fe43b268faaec09c367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSize: 5
-  nodeObj:
-  - {fileID: -1543387252119280156, guid: 496ae6627e46f6b45a05442645d54f53, type: 3}
-  - {fileID: 9044664655422814880, guid: 11a95639e55877e4680b2298dfa535b4, type: 3}
-  - {fileID: -4934562814118845304, guid: 1523dbe1a9772834d8ed170810d576ed, type: 3}
-  - {fileID: -402228765071094175, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
-  units: []
-  unitObj: {fileID: 1552961802023145717, guid: 74bd199e9ff724c42a13d0c0fdb0b8b0, type: 3}
+  width: 5
+  height: 5
+  nodes:
+  - {fileID: 11400000, guid: 0a00d6f10f05dda409a0b342d8dcaf4e, type: 2}
+  - {fileID: 11400000, guid: f3b0b98ff65829a44a024ba228476d12, type: 2}
+  - {fileID: 11400000, guid: ddceb5f6222ab8148abb7e9dc8adadb9, type: 2}
+  - {fileID: 11400000, guid: 6ebaf890c77f90c41b1a6d4074253716, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

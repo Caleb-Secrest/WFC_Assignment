@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49b02919f35b5c47b7f52d79cd0c74a, type: 3}
+  m_Name: Turn
+  m_EditorClassIdentifier: 
+  Name: Turn
+  Prefab: {fileID: 8128295574424125212, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
+  up:
+    usableNodes:
+    - {fileID: 11400000, guid: 0a00d6f10f05dda409a0b342d8dcaf4e, type: 2}
+    - {fileID: 11400000, guid: f3b0b98ff65829a44a024ba228476d12, type: 2}
+    - {fileID: 11400000, guid: ddceb5f6222ab8148abb7e9dc8adadb9, type: 2}
+    - {fileID: 11400000}
+  down:
+    usableNodes:
+    - {fileID: 11400000, guid: 0a00d6f10f05dda409a0b342d8dcaf4e, type: 2}
+    - {fileID: 11400000, guid: f3b0b98ff65829a44a024ba228476d12, type: 2}
+    - {fileID: 11400000, guid: ddceb5f6222ab8148abb7e9dc8adadb9, type: 2}
+    - {fileID: 11400000}
+  left:
+    usableNodes:
+    - {fileID: 11400000, guid: 0a00d6f10f05dda409a0b342d8dcaf4e, type: 2}
+    - {fileID: 11400000, guid: f3b0b98ff65829a44a024ba228476d12, type: 2}
+    - {fileID: 11400000, guid: ddceb5f6222ab8148abb7e9dc8adadb9, type: 2}
+    - {fileID: 11400000}
+  right:
+    usableNodes:
+    - {fileID: 11400000, guid: 0a00d6f10f05dda409a0b342d8dcaf4e, type: 2}
+    - {fileID: 11400000, guid: f3b0b98ff65829a44a024ba228476d12, type: 2}
+    - {fileID: 11400000, guid: ddceb5f6222ab8148abb7e9dc8adadb9, type: 2}
+    - {fileID: 11400000}

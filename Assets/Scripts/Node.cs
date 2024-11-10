@@ -1,11 +1,33 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Node : MonoBehaviour
+[CreateAssetMenu(fileName = "Node", menuName = "Node")]
+[System.Serializable]
+public class Node : ScriptableObject
 {
-    public Node[] topNode;
-    public Node[] rightNode;
-    public Node[] bottomNode;
-    public Node[] leftNode;
+    [Header("Node Details")]
+    public string Name;
+    public GameObject Prefab;
+
+    [Header("Connections")]
+    public Connector up;
+    public Connector down;
+    public Connector left;
+    public Connector right;
+
+    public void ValidateNode()
+    {
+        if (up == null || down == null || left == null || right == null)
+        {
+            Debug.LogWarning($"Node {Name} has unassigned connectors.");
+        }
+    }
+}
+
+[System.Serializable]
+public class Connector
+{
+    [Tooltip("List of nodes that can connect through this connector")]
+    public List<Node> usableNodes = new List<Node>();
+
 }
