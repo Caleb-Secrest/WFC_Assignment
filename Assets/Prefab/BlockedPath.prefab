@@ -114,7 +114,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4430278619301156318}
-  - component: {fileID: -1543387252119280156}
   m_Layer: 0
   m_Name: BlockedPath
   m_TagString: Untagged
@@ -138,35 +137,3 @@ Transform:
   - {fileID: 6021299265199589005}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-1543387252119280156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6761507527326871772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b49b02919f35b5c47b7f52d79cd0c74a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topNode:
-  - {fileID: -1543387252119280156}
-  - {fileID: -4934562814118845304, guid: 1523dbe1a9772834d8ed170810d576ed, type: 3}
-  - {fileID: -402228765071094175, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
-  - {fileID: 9044664655422814880, guid: 11a95639e55877e4680b2298dfa535b4, type: 3}
-  rightNode:
-  - {fileID: -1543387252119280156}
-  - {fileID: -4934562814118845304, guid: 1523dbe1a9772834d8ed170810d576ed, type: 3}
-  - {fileID: -402228765071094175, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
-  - {fileID: 9044664655422814880, guid: 11a95639e55877e4680b2298dfa535b4, type: 3}
-  bottomNode:
-  - {fileID: -1543387252119280156}
-  - {fileID: -4934562814118845304, guid: 1523dbe1a9772834d8ed170810d576ed, type: 3}
-  - {fileID: -402228765071094175, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
-  - {fileID: 9044664655422814880, guid: 11a95639e55877e4680b2298dfa535b4, type: 3}
-  leftNode:
-  - {fileID: -1543387252119280156}
-  - {fileID: -4934562814118845304, guid: 1523dbe1a9772834d8ed170810d576ed, type: 3}
-  - {fileID: -402228765071094175, guid: 2432bd6d36c50864690808400dee3c48, type: 3}
-  - {fileID: 9044664655422814880, guid: 11a95639e55877e4680b2298dfa535b4, type: 3}
