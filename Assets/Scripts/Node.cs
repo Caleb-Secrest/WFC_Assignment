@@ -29,5 +29,4 @@ public class Connector
 {
     [Tooltip("List of nodes that can connect through this connector")]
     public List<Node> usableNodes = new List<Node>();
-
 }
